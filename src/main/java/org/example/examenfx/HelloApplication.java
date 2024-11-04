@@ -14,7 +14,7 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         HelloApplication.ventana = stage;
-        loadFXML("hello-view.fxml","Hola mundo");
+        loadFXML("hello-view.fxml","Hola mundos");
         stage.show();
     }
 
